@@ -1,0 +1,25 @@
+# 5–8 minute video demonstration script
+
+## 1. Introduction
+Hello. This is my Chef's Menu Manager application for Christoffel's Restaurant. The application helps the chef add, view, update, delete, search and organise restaurant menu items.
+
+## 2. Add a menu item
+I will start by adding a new menu item. I enter the dish name, description, select its course and enter the price. When I press Add Menu Item, the application saves the dish and displays a success message. The new dish appears under Your Menu.
+
+## 3. Show validation
+I will also demonstrate validation by trying to save the form without completing the required fields. The application displays messages explaining what information is missing. It also checks that the price is a valid amount greater than zero.
+
+## 4. Edit and update
+Next, I select Edit on an existing dish. Its current information is loaded into the form. I change one or more details and press Update Menu Item. The updated information is immediately displayed on the menu.
+
+## 5. Delete
+I press Delete on a menu item. A confirmation message appears so that the chef does not remove a dish by mistake. I confirm the deletion, and the item is removed from the list.
+
+## 6. Search and filter
+The search field allows the chef to find a dish by typing its name. The course filters allow the chef to display All items, Starters, Main Courses or Desserts. I can press Clear Search and Filter to display the complete menu again.
+
+## 7. Menu statistics
+The statistics section displays the total number of menu items, the average price and the number of dishes in each course. These values update when menu items are added, edited or deleted.
+
+## 8. Conclusion
+The application provides the main menu-management functions in one place. It uses validation, confirmation messages and a consistent layout to make the application easier to use. Thank you for watching.
